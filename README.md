@@ -18,7 +18,7 @@ Note: Starting from here is repeted for each post.
 10. In `content.txt`, put whatever you want in your post with newlines as backslashes.
 11. Add 1 to the number in `num.txt`.
 
-You have succsessfully made a post!
+You have succsessfully made a post! (for an example, go to [/example](https://github.com/TheOddCell/odd-type-news/tree/main/example) or connect to `https://otn.oddcell.ca/example/`.)
 ### Users
 Download [client.py](https://otn.oddcell.ca/client.py), and type `switch` into the command line, then type in the url. (eg. `news.example.com/exammplenews/`)
 
