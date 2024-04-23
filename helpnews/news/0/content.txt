@@ -1,0 +1,1 @@
+Hello!\You are connected to the default server for OTN.\Reccomended servers:\1. Oddie's News @ https://newsapi.oddcell.ca/\2. This one! @ https://otn.oddcell.ca/helpnews\3. The example (for testing) @ https://otn.oddcell.ca/example/ \For more help, go to https://otn.oddcell.ca/.\
