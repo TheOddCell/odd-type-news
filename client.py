@@ -65,20 +65,27 @@ def articleinput():
         return intput
 
 def main():
-    allOSclear()
-    articles = int(request(f"{server}num.txt"))
-    disc = request(f"{server}disc.txt").replace("\n", "").replace("\\", "\n")
-    title = request(f"{server}title.txt")
-    print(f"Hello!\nWelcome to the OddTypeNews client terminal.")
-    while True:
-        print(f"You are connected to {server}.\n\nTitle: {title}\nDiscription:\n{disc}\n")
+    try:
+        allOSclear()
         articles = int(request(f"{server}num.txt"))
-        print(f"There are {articles + 1} posts available.")
-        usrinput = articleinput()
-        allOSclear()
-        metadata = request(f"{server}news/{usrinput - 1}/metadata.txt").replace("\n", "").replace("\\", "\n")
-        content = request(f"{server}news/{usrinput - 1}/content.txt").replace("\n", "").replace("\\", "\n")
-        print(f"Article {usrinput}\n{metadata}\n{dash()}\n\n{content}\n{dash()}\n\nPress enter to view another article or exit.")
-        input()
-        allOSclear()
+        disc = request(f"{server}disc.txt").replace("\n", "").replace("\\", "\n")
+        title = request(f"{server}title.txt")
+        print(f"Hello!\nWelcome to the OddTypeNews client terminal.")
+        while True:
+            print(f"You are connected to {server}.\n\nTitle: {title}\nDiscription:\n{disc}\n")
+            articles = int(request(f"{server}num.txt"))
+            print(f"There are {articles + 1} posts available.")
+            usrinput = articleinput()
+            allOSclear()
+            metadata = request(f"{server}news/{usrinput - 1}/metadata.txt").replace("\n", "").replace("\\", "\n")
+            content = request(f"{server}news/{usrinput - 1}/content.txt").replace("\n", "").replace("\\", "\n")
+            print(f"Article {usrinput}\n{metadata}\n{dash()}\n\n{content}\n{dash()}\n\nPress enter to view another article or exit.")
+            input()
+            allOSclear()
+    except:
+        print("There has been an error: resetting OCI.") # OCI is Odd Client Info
+        try:
+            os.remove("oddlcientinfo.txt")
+        except:
+            print("Can not reset OCI.")
 main()
