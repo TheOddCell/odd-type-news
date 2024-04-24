@@ -68,10 +68,10 @@ def main():
     try:
         allOSclear()
         articles = int(request(f"{server}num.txt"))
-        disc = request(f"{server}disc.txt").replace("\n", "").replace("\\", "\n")
-        title = request(f"{server}title.txt")
         print(f"Hello!\nWelcome to the OddTypeNews client terminal.")
         while True:
+            disc = request(f"{server}disc.txt").replace("\n", "").replace("\\", "\n")
+            title = request(f"{server}title.txt")
             print(f"You are connected to {server}.\n\nTitle: {title}\nDiscription:\n{disc}\n")
             articles = int(request(f"{server}num.txt"))
             print(f"There are {articles + 1} posts available.")
