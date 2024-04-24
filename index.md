@@ -8,6 +8,6 @@ For setup and makeing a post, go to [the README](https://github.com/TheOddCell/o
 (for an example, go to [/example](https://github.com/TheOddCell/odd-type-news/tree/main/example) or connect to `https://otn.oddcell.ca/example/`.)
 
 ### Users
-Download [client.py](https://otn.oddcell.ca/client.py), and type `switch` into the command line, then type in the url. (eg. `news.example.com/exammplenews/`)
+Download [client.py](https://github.com/TheOddCell/odd-type-news/releases), and type `switch` into the command line, then type in the url. (eg. `news.example.com/exammplenews/`)
 
 [my main page](https://oddcell.ca/)
