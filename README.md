@@ -7,7 +7,7 @@ Before starting, choose a place to host it. For example: `news.example.com/examp
 
 #### Automatic Setup
 (Only tested on Debain/Ubuntu)
-1. Download [server.py](https://otn.oddcell.ca/server.py).
+1. Download [server.py](https://github.com/TheOddCell/odd-type-news/releases).
 2. Move `server.py` to the directory (eg. `news.example.com/examplenews/server.py`)
 3. Run `server.py` and follow the instructions. (this will also create a new post.)
 
@@ -29,6 +29,6 @@ Note: Starting from here is repeted for each post.
 
 You have succsessfully made a post! (for an example, go to [/example](https://github.com/TheOddCell/odd-type-news/tree/main/example) or connect to `https://otn.oddcell.ca/example/`.)
 ### Users
-Download [client.py](https://otn.oddcell.ca/client.py), and type `switch` into the command line, then type in the url. (eg. `news.example.com/exammplenews/`)
+Download [client.py](https://github.com/TheOddCell/odd-type-news/releases), and type `switch` into the command line, then type in the url. (eg. `news.example.com/examplenews/`)
 
 Done!
