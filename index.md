@@ -9,3 +9,5 @@ For setup and makeing a post, go to [the README](https://github.com/TheOddCell/o
 
 ### Users
 Download [client.py](https://otn.oddcell.ca/client.py), and type `switch` into the command line, then type in the url. (eg. `news.example.com/exammplenews/`)
+
+[my main page](https://oddcell.ca/)
